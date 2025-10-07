@@ -1,0 +1,168 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    body{
+        background-image: url(images/hero.svg);
+        background-size: cover;
+        height: 100vh;
+
+    }
+    
+    
+    ul{
+        margin: 0;
+        
+      
+    }
+    
+    li{
+        list-style: none;
+    }
+
+    body{
+        color: #000;
+        font-family: 'Lato', sans-serif;
+    }
+   
+    
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+     a:hover{
+      color:#FEBD59;
+  }  
+    nav{
+        border-radius: 16px;
+    }
+    .btn1{
+        background-color: #FEBD59;
+        color:#fff;
+        padding: 14px;
+    }
+
+    .swiper-container {
+  position: relative; }
+
+.screenshot-frame {
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 342px;
+  height: 100%;
+  z-index: 5; }
+  .screenshot-frame img {
+    border-radius: 10px; }
+
+.swiper-slide {
+  width: 310px;
+  height: auto;
+  -webkit-box-shadow: 4px 5px 18px 0px rgba(110, 112, 113, 0.32);
+  -moz-box-shadow: 4px 5px 18px 0px rgba(110, 112, 113, 0.32);
+  box-shadow: 4px 5px 18px 0px rgba(110, 112, 113, 0.32);
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.swiper-slide img {
+  width: 100%; }
+
+.swiper-slide-active.swiper-slide {
+  border-radius: 10px;
+  overflow: hidden; }
+
+.swiper-pagination {
+  bottom: 0 !important;
+  padding-top: 42px;
+  position: relative;
+  z-index: 99; }
+  .swiper-pagination .swiper-pagination-bullet {
+    width: 16px;
+    height: 16px;
+    border: 2px solid #FEBD59;
+    background: none;
+    opacity: 1; }
+    .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+      background: #FEBD59; }
+
+        /* Mobile-specific centering styles */
+        @media (max-width: 768px) {
+            /* Center all text content */
+            .header-hero-content,
+            .section-title,
+            .services-content,
+            .features-content,
+            .download-content,
+            .footer-about,
+            .footer-link,
+            .footer-contact {
+                text-align: center !important;
+            }
+            
+            /* Center navigation */
+            .navbar-nav {
+                text-align: center !important;
+            }
+            
+            /* Center all sections */
+            .header-hero,
+            .services-area,
+            .features-area,
+            .screenshots-area,
+            .download-area,
+            .footer-area {
+                text-align: center !important;
+            }
+            
+            /* Center images */
+            .header-image,
+            .features-image,
+            .download-image {
+                display: flex !important;
+                justify-content: center !important;
+                align-items: center !important;
+            }
+            
+            /* Center buttons and links */
+            .main-btn,
+            .app-store,
+            .play-store {
+                display: block !important;
+                margin: 0 auto !important;
+            }
+            
+            /* Center download buttons */
+            .download-content ul {
+                display: flex !important;
+                justify-content: center !important;
+                flex-wrap: wrap !important;
+                gap: 15px !important;
+            }
+            
+            /* Center footer content */
+            .footer-widget .row {
+                text-align: center !important;
+            }
+            
+            .footer-link {
+                justify-content: center !important;
+            }
+        }

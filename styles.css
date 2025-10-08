@@ -2,6 +2,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
+    .container{
+        max-width: 1310px;
+    }
     
     
     
@@ -14,9 +17,8 @@
     
     
     
-    
-    body{
-        background-image: url(images/hero.svg);
+    #hero{
+        background-image: url(frontend/images/hero.svg);
         background-size: cover;
         height: 100vh;
 
@@ -52,7 +54,8 @@
     .btn1{
         background-color: #FEBD59;
         color:#fff;
-        padding: 14px;
+        padding: 17px;
+        border-radius: 12px;
     }
 
     .swiper-container {
